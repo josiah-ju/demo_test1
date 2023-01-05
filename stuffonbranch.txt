@@ -1,1 +1,20 @@
 #stuff on branch
+
+to create child branch in git Bash command windows :  git branch child
+to switch the branch from master to child : git checkout child
+to create a file with a content, "#stuff on branch" : echo "#stuff on branch" >> stuffonbranch.txt
+to add the file : git add stuffonbranch.txt
+to commit : git commit -m "add to the branch"
+to push : git push
+
+You might see a fatal error because of no upstream branch, which means the child branch is not created in the GitHub server.
+to create a pull request : git push --set-upstream origin child
+and push again : git push
+
+to merge the changed stuffs in child branch : git merge child
+switch to master branch from child : git checkout master
+
+to merge the changed stuffs to master branch : git merge child
+to push the sutffonbranch.txt to master branch : git push
+
+
