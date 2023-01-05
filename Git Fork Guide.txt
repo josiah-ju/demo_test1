@@ -1,0 +1,26 @@
+How to fork a git
+
+Open the link: https://github.com/romeokienzler/TensorFlow/
+
+Click ‘Fork’ and copy the repository in your account.
+
+Copy the SSH Repository Link and clone it locally using: git clone git@github.com:josiah-ju/TensorFlow.git
+
+Open and edit any file in the editor.
+
+After saving the file,
+
+git add .
+
+And commit the changes with the message:
+
+git commit -m “message”
+
+git push to make the changes in remote repository
+Check the repository, it is added
+
+Click ‘Compare’ to compare the changes
+
+Create a Pull request to make the changes in the original file.
+
+Note: The pull request will now send to the author of the repository and if accepted the changes will be made to the original repository.
